@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="header">
+        <img src="./images/logo.png" alt="achit-logo"/>
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a id="nav-link" href="shop.html">Shop</a></li>
+            <li><a href="account.html">My Account</a></li>
+            <li><a href="compare.html">Compare</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        <div class="min">
+            <div class="search-bar">
+                <input placeholder="Search For Items..."/>
+            </div>
+            <div class="icons">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+        </div>
+    </header>
+    <div class="content-bar">
+        <span>Home > Shop</span>
+    </div>
+    <p id="shop_text">We found <span>688</span> items for you!</p>
+    <section class="shop">
+        <div class="shop-card">
+            <div class="shop-img">
+                <div class="img-card pi1">
+                    <div class="c-icon">
+                        <span class="circle"><i class="fa-regular fa-eye"></i><button class="tooltip tt1">Quick View</button></span>
+                        <span class="circle"><i class="fa-regular fa-heart"></i><button class="tooltip tt2">Add to wishList</button></span>
+                        <span class="circle"><i class="fa-solid fa-share-nodes"></i><button class="tooltip tt3">Compare</button></span>
+                    </div> 
+                </div> 
+                <div id="top-icon">
+                    <button style="background-color: rgb(247, 97, 122);">Hot</button>
+                </div>
+            </div>
+            <div class="text-icon">
+                <div id="img-icon">
+                    <span>Clothing</span>
+                    <p id="pro-name">Colorful Pattern Shirt<br>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                    <p id="ocost">$240.55 <del id="cost">$250</del></p>
+                </div>
+                <span class="circle a-cart"><i class="fa-solid fa-cart-plus"></i><p id="acart">Add to Cart</p></span>
+            </div>
+        </div>
+        <div class="shop-card">
+            <div class="shop-img">
+                <div class="img-card pi2">
+                    <div class="c-icon">
+                        <span class="circle"><i class="fa-regular fa-eye"></i><button class="tooltip tt1">Quick View</button></span>
+                        <span class="circle"><i class="fa-regular fa-heart"></i><button class="tooltip tt2">Add to wishList</button></span>
+                        <span class="circle"><i class="fa-solid fa-share-nodes"></i><button class="tooltip tt3">Compare</button></span>
+                    </div> 
+                </div> 
+                <div id="top-icon">
+                    <button style="background-color: rgb(129, 129, 129);">Hot</button>
+                </div>
+            </div>
+            <div class="text-icon">
+                <div id="img-icon">
+                    <span>Clothing</span>
+                    <p id="pro-name">Colorful Pattern Shirt<br>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                    <p id="ocost">$220 <del id="cost">$240.30</del></p>
+                </div>
+                <span class="circle a-cart"><i class="fa-solid fa-cart-plus"></i><br><p id="acart">Add to Cart</p></span>
+            </div>
+        </div>
+        <div class="shop-card">
+            <div class="shop-img">
+                <div class="img-card pi3">
+                    <div class="c-icon">
+                        <span class="circle"><i class="fa-regular fa-eye"></i><button class="tooltip tt1">Quick View</button></span>
+                        <span class="circle"><i class="fa-regular fa-heart"></i><button class="tooltip tt2">Add to wishList</button></span>
+                        <span class="circle"><i class="fa-solid fa-share-nodes"></i><button class="tooltip tt3">Compare</button></span>
+                    </div> 
+                </div> 
+                <div id="top-icon">
+                    <button style="background-color: rgb(248, 174, 104);">Hot</button>
+                </div>
+            </div>
+            <div class="text-icon">
+                <div id="img-icon">
+                    <span>FootWare</span>
+                    <p id="pro-name">Branded Shoes<br>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                    <p id="ocost">$150.50 <del id="cost">$180</del></p>
+                </div>
+                <span class="circle a-cart"><i class="fa-solid fa-cart-plus"></i><p id="acart">Add to Cart</p></span>
+            </div>
+        </div>
+        <div class="shop-card">
+            <div class="shop-img">
+                <div class="img-card pi4">
+                    <div class="c-icon">
+                        <span class="circle"><i class="fa-regular fa-eye"></i><button class="tooltip tt1">Quick View</button></span>
+                        <span class="circle"><i class="fa-regular fa-heart"></i><button class="tooltip tt2">Add to wishList</button></span>
+                        <span class="circle"><i class="fa-solid fa-share-nodes"></i><button class="tooltip tt3">Compare</button></span>
+                    </div> 
+                </div> 
+                <div id="top-icon">
+                    <button style="background-color: rgb(137, 204, 243);">Hot</button>
+                </div>
+            </div>
+            <div class="text-icon">
+                <div id="img-icon">
+                    <span>Clothing</span>
+                    <p id="pro-name">Colorful Pattern Pants<br>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                    <p id="ocost">$250.15 <del id="cost">$270</del></p>
+                </div>
+                <span class="circle a-cart"><i class="fa-solid fa-cart-plus"></i><p id="acart">Add to Cart</p></span>
+            </div>
+        </div>
+        <div class="shop-card">
+            <div class="shop-img">
+                <div class="img-card pi5">
+                    <div class="c-icon">
+                        <span class="circle"><i class="fa-regular fa-eye"></i><button class="tooltip tt1">Quick View</button></span>
+                        <span class="circle"><i class="fa-regular fa-heart"></i><button class="tooltip tt2">Add to wishList</button></span>
+                        <span class="circle"><i class="fa-solid fa-share-nodes"></i><button class="tooltip tt3">Compare</button></span>
+                    </div> 
+                </div> 
+                <div id="top-icon">
+                    <button style="background-color:  rgb(137, 204, 243);">-22%</button>
+                </div>
+            </div>
+            <div class="text-icon">
+                <div id="img-icon">
+                    <span>Clothing</span>
+                    <p id="pro-name">Colorful Scarf Cap<br>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                    <p id="ocost">$34.20 <del id="cost">$50</del></p>
+                </div>
+                <span class="circle a-cart"><i class="fa-solid fa-cart-plus"></i><p id="acart">Add to Cart</p></span>
+            </div>
+        </div>
+        <div class="shop-card">
+            <div class="shop-img">
+                <div class="img-card pi6">
+                    <div class="c-icon">
+                        <span class="circle"><i class="fa-regular fa-eye"></i><button class="tooltip tt1">Quick View</button></span>
+                        <span class="circle"><i class="fa-regular fa-heart"></i><button class="tooltip tt2">Add to wishList</button></span>
+                        <span class="circle"><i class="fa-solid fa-share-nodes"></i><button class="tooltip tt3">Compare</button></span>
+                    </div> 
+                </div> 
+                <div id="top-icon">
+                    <button style="background-color:  rgb(137, 204, 243);">-30%</button>
+                </div>
+            </div>
+            <div class="text-icon">
+                <div id="img-icon">
+                    <span>Clothing</span>
+                    <p id="pro-name">Colorful Pattern Shirt<br>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                    <p id="ocost">$300.55 <del id="cost">$350</del></p>
+                </div>
+                <span class="circle a-cart"><i class="fa-solid fa-cart-plus"></i><p id="acart">Add to Cart</p></span>
+            </div>
+        </div>
+        <div class="shop-card">
+            <div class="shop-img">
+                <div class="img-card pi7">
+                    <div class="c-icon">
+                        <span class="circle"><i class="fa-regular fa-eye"></i><button class="tooltip tt1">Quick View</button></span>
+                        <span class="circle"><i class="fa-regular fa-heart"></i><button class="tooltip tt2">Add to wishList</button></span>
+                        <span class="circle"><i class="fa-solid fa-share-nodes"></i><button class="tooltip tt3">Compare</button></span>
+                    </div> 
+                </div> 
+                <div id="top-icon">
+                    <button style="background-color: rgb(129, 129, 129);">-20%</button>
+                </div>
+            </div>
+            <div class="text-icon">
+                <div id="img-icon">
+                    <span>Clothing</span>
+                    <p id="pro-name">Colorful Pattern Shirt<br>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                    <p id="ocost">$165.55 <del id="cost">$190</del></p>
+                </div>
+                <span class="circle a-cart"><i class="fa-solid fa-cart-plus"></i><p id="acart">Add to Cart</p></span>
+            </div>
+        </div>
+        <div class="shop-card">
+            <div class="shop-img">
+                <div class="img-card pi8">
+                    <div class="c-icon">
+                        <span class="circle"><i class="fa-regular fa-eye"></i><button class="tooltip tt1">Quick View</button></span>
+                        <span class="circle"><i class="fa-regular fa-heart"></i><button class="tooltip tt2">Add to wishList</button></span>
+                        <span class="circle"><i class="fa-solid fa-share-nodes"></i><button class="tooltip tt3">Compare</button></span>
+                    </div> 
+                </div> 
+                <div id="top-icon">
+                    <button style="visibility:hidden;">Hot</button>
+                </div>
+            </div>
+            <div class="text-icon">
+                <div id="img-icon">
+                    <span>Clothing</span>
+                    <p id="pro-name">Colorful Pattern Shirt<br>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                    <p id="ocost">$280</p>
+                </div>
+                <span class="circle a-cart"><i class="fa-solid fa-cart-plus"></i><p id="acart">Add to Cart</p></span>
+            </div>
+        </div>
+        <div class="shop-card">
+            <div class="shop-img">
+                <div class="img-card pi9">
+                    <div class="c-icon">
+                        <span class="circle"><i class="fa-regular fa-eye"></i><button class="tooltip tt1">Quick View</button></span>
+                        <span class="circle"><i class="fa-regular fa-heart"></i><button class="tooltip tt2">Add to wishList</button></span>
+                        <span class="circle"><i class="fa-solid fa-share-nodes"></i><button class="tooltip tt3">Compare</button></span>
+                    </div> 
+                </div> 
+                <div id="top-icon">
+                    <button style="background-color: rgb(137, 204, 243);">-28%</button>
+                </div>
+            </div>
+            <div class="text-icon">
+                <div id="img-icon">
+                    <span>Clothing</span>
+                    <p id="pro-name">Colorful Pattern Shirt<br>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                    <p id="ocost">$258 <del id="cost">$280</del></p>
+                </div>
+                <span class="circle a-cart"><i class="fa-solid fa-cart-plus"></i><p id="acart">Add to Cart</p></span>
+            </div>
+        </div>
+        <div class="shop-card">
+            <div class="shop-img">
+                <div class="img-card pi10">
+                    <div class="c-icon">
+                        <span class="circle"><i class="fa-regular fa-eye"></i><button class="tooltip tt1">Quick View</button></span>
+                        <span class="circle"><i class="fa-regular fa-heart"></i><button class="tooltip tt2">Add to wishList</button></span>
+                        <span class="circle"><i class="fa-solid fa-share-nodes"></i><button class="tooltip tt3">Compare</button></span>
+                    </div> 
+                </div> 
+                <div id="top-icon">
+                    <button style="background-color: rgb(129, 129, 129);">-18%</button>
+                </div>
+            </div>
+            <div class="text-icon">
+                <div id="img-icon">
+                    <span>FootWare</span>
+                    <p id="pro-name">Colorful Sandals<br>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                    <p id="ocost">$110.47 <del id="cost">$130</del></p>
+                </div>
+                <span class="circle a-cart"><i class="fa-solid fa-cart-plus"></i><p id="acart">Add to Cart</p></span>
+            </div>
+        </div>
+        <div class="shop-card">
+            <div class="shop-img">
+                <div class="img-card pi11">
+                    <div class="c-icon">
+                        <span class="circle"><i class="fa-regular fa-eye"></i><button class="tooltip tt1">Quick View</button></span>
+                        <span class="circle"><i class="fa-regular fa-heart"></i><button class="tooltip tt2">Add to wishList</button></span>
+                        <span class="circle"><i class="fa-solid fa-share-nodes"></i><button class="tooltip tt3">Compare</button></span>
+                    </div> 
+                </div> 
+                <div id="top-icon">
+                    <button style="background-color: rgb(137, 204, 243);">-25%</button>
+                </div>
+            </div>
+            <div class="text-icon">
+                <div id="img-icon">
+                    <span>Clothing</span>
+                    <p id="pro-name">Colorful Pattern Pants<br>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                    <p id="ocost">$290 <del id="cost">$350</del></p>
+                </div>
+                <span class="circle a-cart"><i class="fa-solid fa-cart-plus"></i><p id="acart">Add to Cart</p></span>
+            </div>
+        </div>
+        <div class="shop-card">
+            <div class="shop-img">
+                <div class="img-card pi12">
+                    <div class="c-icon">
+                        <span class="circle"><i class="fa-regular fa-eye"></i><button class="tooltip tt1">Quick View</button></span>
+                        <span class="circle"><i class="fa-regular fa-heart"></i><button class="tooltip tt2">Add to wishList</button></span>
+                        <span class="circle"><i class="fa-solid fa-share-nodes"></i><button class="tooltip tt3">Compare</button></span>
+                    </div> 
+                </div> 
+                <div id="top-icon">
+                    <button style="visibility:hidden;">Hot</button>
+                </div>
+            </div>
+            <div class="text-icon">
+                <div id="img-icon">
+                    <span>Clothing</span>
+                    <p id="pro-name">Colorful Pattern Shirt<br>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </p>
+                    <p id="ocost">$190.85 <del id="cost">$220</del></p>
+                </div>
+                <span class="circle a-cart"><i class="fa-solid fa-cart-plus"></i><p id="acart">Add to Cart</p></span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-signin">
+            <div class="email">
+                <img src="./images/icon-email.svg" alt="email-svg"/>
+                <p>Sign in to Newsletter</p>
+            </div>
+            <div class="para">
+                <p>...and receive $25 coupon for first shopping.</p>
+            </div>
+            <form>
+                <input type="email" placeholder="Enter Your Email"/>
+                <button>Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-content">
+            <div class="footer-info">
+                <img src="./images/logo.png" alt="info-logo"/><br>
+                <span>Contact</span>
+                <p><b>Address:</b> 13 Tlemcen Road,Street 32,Beb-Wahren</p>
+                <p><b>Phone:</b> +01 2222 365/ (+91) 01 2345 6789</p>
+                <p><b>Hours:</b> 10:00 - 18:00 , Mon - Sat</p><br>
+                <span>Follow Me</span>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <ul>
+                <p>Address</p>
+                <a>About Us</a>
+                <a>Delivery Information</a>
+                <a>Privacy Policy</a>
+                <a>Terms and Conditions</a>
+                <a>Contact Us</a>
+                <a>Support Center</a>
+            </ul>
+            <ul>
+                <p>My Account</p>
+                <a>Sign In</a>
+                <a>View Cart</a>
+                <a>My Wishlist</a>
+                <a>Track My Order</a>
+                <a>Help</a>
+                <a>Order</a>
+            </ul>
+            <ul>
+                <p>Secured Payed Gateways</p>
+                <img src="./images/payment-method.png" alt="footer-png"/>
+            </ul>
+        </div>
+        <hr>
+        <div class="footer-copyright">
+            <p>©2024 VARSHINI.All rights reserved.</p>
+            <p>Designer by VARSHINI G</p>
+        </div>
+    </footer>
+</body>
+</html>
